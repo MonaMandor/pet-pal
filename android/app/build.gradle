@@ -1,0 +1,49 @@
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.2'  // ✅ Ensure latest Gradle plugin version
+    }
+}
+
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.pet_pal"
+    compileSdkVersion 35
+    ndkVersion "25.1.8937393"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true  // ✅ ADD THIS
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        applicationId = "com.example.pet_pal"
+        minSdkVersion 21  // ✅ Ensure minSdk is at least 21
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutter.versionCode
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'  // ✅ UPDATED
+}
+
+flutter {
+    source = "../.."
+}

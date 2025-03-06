@@ -1,0 +1,79 @@
+// core/constansts/asset_manger.dart
+class AssetManger {
+  static const String image = 'assets/images/';
+  static const String svgs = 'assets/svgs/';
+  
+
+  static const String food = '${image}food.png';
+  static const String alarm = '${image}alarm.png';
+  static const String veterinary = '${image}veterinary.png';
+  static const String cat = '${image}cat.png';
+  static const String syringe = '${image}syringe.png';
+  static const String play = '${image}play.png';
+  static const String googleIcon = '${image}googleIcon.png';
+  static const String nameIcon = '${image}nameIcon.png';
+  static const String phone = '${image}phone.png';
+  static const String calender = '${image}calender.png';
+  static const String photoEdit = '${image}photoEdit.png';
+  static const String uploud = '${image}uploud.png';
+  static const String appelIcon = '${image}appelIcon.png';
+  static const String arrowLeft = '${image}arrowLeft.png';
+  static const String arrow = '${image}arrow.png';
+ static const String lockBlue = '${image}lockBlue.png';
+  static const String lockGray = '${image}lockGray.png';
+  static const String arrowDown = '${image}arrowDown.png';
+  static const String phoneBlue = '${image}phoneBlue.png';
+  static const String phoneGray = '${image}phoneGray.png';
+  static const String ordersBlue = '${image}ordersBlue.png';
+  static const String ordersGray = '${image}ordersGray.png';
+  static const String moneysGray = '${image}moneysGray.png';
+  static const String moneysBlue = '${image}moneysBlue.png';
+  static const String starGray = '${image}starGray.png';
+  static const String starBlue = '${image}starBlue.png';
+  static const String walletGray = '${image}walletGray.png';
+  static const String walletBlue = '${image}walletBlue.png';
+  static const String buttomImage = '${image}buttomImage.png';
+  static const String Ellipse = '${image}Ellipse.png';
+  static const String wadenyLogo = '${image}wadenyLogo.png';
+  static const String frame = '${image}frame.png';
+  static const String profileBlue = '${image}profileBlue.png';
+  static const String profileGray = '${image}profileGray.png';
+  static const String wallet = '${image}wallet.png';
+  static const String car = '${image}car.png';
+  static const String shielDone = '${image}shielDone.png';
+  static const String setting = '${image}setting.png';
+  static const String infoSquare = '${image}infoSquare.png';
+  static const String profile = '${image}profile.png';
+  static const String menu = '${image}menuOrange.png';
+  static const String illustration = '${image}illustration.png';
+  static const String arrowCarve = '${image}arrowCarve.png';
+  static const String user = '${image}user.png';
+  static const String calendar = '${image}calendar.png';
+  static const String userName = '${image}userName.png';
+  static const String idIcon = '${image}idIcon.png';
+  static const String congratulations = '${image}congratulations.png';
+  static const String homeGray = '${image}homeGray.png';
+  static const String homeOrange = '${image}homeOrange.png';
+  static const String orderOrange = '${image}orderOrange.png';
+  static const String orderGray = '${image}orderGray.png';
+  static const String chatOrange = '${image}chatOrange.png';
+  static const String chatGray = '${image}chatGray.png';
+  static const String userOrange = '${image}userOrange.png';
+  static const String userGray = '${image}userGray.png';
+  static const String shop = '${image}shop.png';
+
+  static const String search = '${image}search.png';
+  static const String tickSquare = '${image}tickSquare.png';
+  static const String done = '${image}done.png';
+  static const String locationGrey = '${image}locationGrey.png';
+  static const String line = '${image}line.png';
+  static const String location = '${image}location.png';
+  static const String account = '${image}account.png';
+  static const String notification = '${image}notification.png';
+  static const String language = '${image}language.png';
+  static const String logOut = '${image}logOut.png';
+  static const String arrowRight  = '${image}arrowRight .png';
+  static const String gift = '${image}gift.png';
+  static const String iconsEdit = '${image}iconsEdit.png';
+
+}
